@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contact - Local Food Showcase</title>
-    <meta name="description" content="Get in touch with us for orders and inquiries.">
+    <title>About Us - Local Food Showcase</title>
+    <meta name="description" content="Learn about the mission, vision, and team behind Local Food Showcase.">
     <link rel="stylesheet" href="styles.css">
 </head>
 
@@ -22,7 +22,7 @@
                     <li class="nav-item"><a href="products.html" class="nav-link">Homemade Products</a></li>
                     <li class="nav-item"><a href="preparation.html" class="nav-link">Preparation & Hygiene</a></li>
                     <li class="nav-item"><a href="reviews.html" class="nav-link">Reviews</a></li>
-                    <li class="nav-item"><a href="about.html" class="nav-link">About Us</a></li>
+                    <li class="nav-item"><a href="about.html" class="nav-link active">About Us</a></li>
                     <li class="nav-item"><a href="contact.html" class="nav-link">Contact</a></li>
                     <li class="nav-item">
                         <button id="theme-toggle" class="theme-toggle" aria-label="Toggle Theme">🌙</button>
@@ -37,66 +37,45 @@
         </div>
     </header>
 
-    <div style="height: 80px;"></div>
+    <!-- Main Content -->
+    <main>
+        <section class="section">
+            <div class="container">
+                <h1 class="section-title">About Us</h1>
+                <div style="max-width: 800px; margin: 0 auto; line-height: 1.6;">
+                    <p style="margin-bottom: 20px;">
+                        Welcome to the Local Food Showcase, a platform dedicated to celebrating the rich culinary
+                        heritage
+                        of our community. Our mission is to connect food lovers with the authentic tastes and traditions
+                        that define our local culture. We believe that food is more than just sustenance; it is a story
+                        of the land, the people, and the history that shapes us.
+                    </p>
 
-    <!-- Main Contact Section -->
-    <section class="section">
-        <div class="container">
-            <h2 class="section-title">Get In Touch</h2>
-            <div class="contact-wrapper">
+                    <h2 style="margin-top: 30px; margin-bottom: 15px; color: var(--primary-color);">Our Mission</h2>
+                    <p style="margin-bottom: 20px;">
+                        We strive to support local farmers, artisans, and home cooks by providing them with a space to
+                        showcase their unique creations. By promoting sustainable practices and preserving traditional
+                        recipes, we aim to keep our culinary history alive for future generations.
+                    </p>
 
-                <!-- Contact Information -->
-                <div class="contact-info">
-                    <h3>Contact Information</h3>
-                    <p style="margin-bottom: 20px;">We'd love to hear from you. Reach out to us for bulk orders or any
-                        queries.</p>
+                    <h2 style="margin-top: 30px; margin-bottom: 15px; color: var(--primary-color);">Our Vision</h2>
+                    <p style="margin-bottom: 20px;">
+                        We envision a world where local food systems are thriving, where consumers are connected to the
+                        sources of their food, and where every meal is a celebration of community and culture. We hope
+                        to inspire a deeper appreciation for the effort and artistry that goes into producing
+                        high-quality,
+                        locally sourced food.
+                    </p>
 
-                    <div style="margin-bottom: 20px;">
-                        <strong style="color: var(--primary-color);">📍 Address:</strong>
-                        <p>123 Spice Garden Road,<br>Food Valley, Countryside, 54321</p>
-                    </div>
-
-                    <div style="margin-bottom: 20px;">
-                        <strong style="color: var(--primary-color);">📞 Phone:</strong>
-                        <p>+1 (555) 123-4567</p>
-                    </div>
-
-                    <div style="margin-bottom: 20px;">
-                        <strong style="color: var(--primary-color);">✉️ Email:</strong>
-                        <p>hello@localfoodshowcase.com</p>
-                    </div>
-
-                    <div class="location-desc"
-                        style="margin-top: 30px; padding: 20px; background-color: #faf3e0; border-radius: 8px;">
-                        <h3>How to find us</h3>
-                        <p>We are located right next to the Old Town Market, just a 5-minute walk from the central bus
-                            station. Look for the green gate!</p>
+                    <div style="text-align: center; margin-top: 40px;">
+                        <img src="https://images.unsplash.com/photo-1556910103-1c02745a30bf?ixlib=rb-1.2.1&auto=format&fit=crop&w=1350&q=80"
+                            alt="Community gathering around food"
+                            style="max-width: 100%; border-radius: 8px; box-shadow: 0 4px 6px rgba(0,0,0,0.1);">
                     </div>
                 </div>
-
-                <!-- Contact Form -->
-                <div class="contact-form-container">
-                    <h3>Send a Message</h3>
-                    <form id="contactForm" class="contact-form">
-                        <div class="form-group">
-                            <label for="name">Name</label>
-                            <input type="text" id="name" placeholder="Your Name">
-                        </div>
-                        <div class="form-group">
-                            <label for="email">Email</label>
-                            <input type="text" id="email" placeholder="Your Email">
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Message</label>
-                            <textarea id="message" placeholder="Your Message"></textarea>
-                        </div>
-                        <button type="submit" class="btn">Send Message</button>
-                    </form>
-                </div>
-
             </div>
-        </div>
-    </section>
+        </section>
+    </main>
 
     <!-- Footer -->
     <footer>
